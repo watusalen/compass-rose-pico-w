@@ -1,0 +1,31 @@
+# Pico build
+build/
+*.elf
+*.bin
+*.hex
+*.uf2
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# SDK local (se houver)
+pico-sdk/
+
+# VSCode
+.vscode/
+
+# Python virtualenv
+.venv/ 
+server/.venv/
+
+# caches Python
+__pycache__/
+*.py[cod]
+
+# arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# se usar env-file
+.env
